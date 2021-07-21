@@ -1,5 +1,5 @@
 # Passing SSH publick key into github account settings
-## Wherefore%
+## Wherefore:
 This script is usefull for quick passing of public ssh key from your server terminal to github account
 ## Using:
 git clone git@github.com:AndreyKirichenko/add-ssh-to-github.git
