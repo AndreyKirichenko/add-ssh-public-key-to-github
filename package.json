@@ -1,8 +1,8 @@
 {
-  "name": "add-ssh-to-github",
+  "name": "add-ssh-public-key-to-github",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:AndreyKirichenko/add-ssh-to-github.git",
+  "repository": "git@github.com:AndreyKirichenko/add-ssh-public-key-to-github.git",
   "author": "Andrey Kirichenko <andrey.kirichenko999@gmail.com>",
   "license": "MIT",
   "scripts": {
