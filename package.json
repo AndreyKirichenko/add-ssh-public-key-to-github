@@ -1,0 +1,29 @@
+{
+  "name": "add-ssh-to-github",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AndreyKirichenko/add-ssh-to-github.git",
+  "author": "Andrey Kirichenko <andrey.kirichenko999@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development babel-node index.js",
+    "start": "babel-node index.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.8",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "ghost-cursor": "^1.1.6",
+    "minimist": "^1.2.5",
+    "puppeteer": "^10.1.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.8",
+    "readline-sync": "^1.4.10"
+  }
+}
