@@ -6,7 +6,7 @@ git clone git@github.com:AndreyKirichenko/add-ssh-public-key-to-github.git
 
 cd add-ssh-public-key-to-github
 
-npm install && npm start --u someGithubUserName --p someGithubPassword
+yarn && yarn start --u someGithubUserName --p someGithubPassword
 ## Attention:
 This script can be broken if github team changes markup. 
 
